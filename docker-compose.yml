@@ -1,0 +1,8 @@
+services:
+  reactjs-ecommerce:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: reactjs-ecommerce:dev
+    ports:
+      - "80:80"
